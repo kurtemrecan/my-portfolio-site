@@ -6,7 +6,7 @@ const projectsData = [
     id: 1,
     title: 'Manifest',
     description:
-      '"Bu site, geleneksel Türk rakı-balık kültürünü modern bir dijital deneyimle buluşturmak için tasarlandı. React, HTML, CSS ve JavaScript kullanılarak geliştirilmiş olan site, kullanıcı dostu arayüzüyle lezzetli menülerimizi keşfetmenize, rezervasyon yapmanıza ve restoranımız hakkında bilgi edinmenize olanak tanır. Misafirlerimize denizden sofraya taze ve unutulmaz bir deneyim sunmayı hedefliyoruz."',
+      '"This site is designed to bring traditional Turkish rakı-fish culture together with a modern digital experience. Developed using React, HTML, CSS, and JavaScript, the site allows you to explore our delicious menus, make reservations, and learn more about our restaurant with its user-friendly interface. We aim to provide our guests with a fresh and unforgettable experience from the sea to the table."',
     image: project1,
     gihubLink: 'https://github.com/kurtemrecan/manifest.git',
     siteLink: 'https://manifest-fawn.vercel.app',
@@ -16,7 +16,7 @@ const projectsData = [
     id: 2,
     title: 'Pizza',
     description:
-      '"Bu site, lezzetli pizzalarımızı kolayca keşfetmeniz ve sipariş vermeniz için React ve Tailwind CSS kullanılarak modern bir tasarımla hazırlandı. Kullanıcı dostu arayüzü sayesinde pizza çeşitlerimizi inceleyebilir, istediğiniz lezzeti hızla sipariş edebilir ve size en yakın şubemizi bulabilirsiniz. Kaliteli malzemeler ve taze lezzetler ile hazırlanmış pizzalarımızı denemeniz için sabırsızlanıyoruz!"',
+      '"This site is designed with a modern layout using React and Tailwind CSS to allow you to easily explore our delicious pizzas and place orders. Thanks to its user-friendly interface, you can browse our pizza varieties, quickly order your desired flavor, and find the nearest branch to you. We can’t wait for you to try our pizzas made with high-quality ingredients and fresh flavors!"',
     image: project2,
     gihubLink: 'https://github.com/kurtemrecan/bol-malzemos.git',
     siteLink: 'https://bol-malzemos.vercel.app/',
