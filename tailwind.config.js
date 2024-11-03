@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-blue': '#3730A3', // Özel renk tanımı
+        'custom-blue': '#3730A3',
+        'custom-purple': '#BAB2E7', // Özel renk tanımı
       },
     },
   },

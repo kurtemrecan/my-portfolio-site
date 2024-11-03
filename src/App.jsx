@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import './index.css';
 import ModeSwitch from './components/ModeSwitch';
+import Skills from './components/Skills';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <ModeSwitch />
       <Header />
       <Hero />
+      <Skills />
+      <Profile />
     </div>
   );
 }

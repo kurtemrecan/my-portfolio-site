@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [activeButton, setActiveButton] = useState('hireme');
@@ -9,10 +10,10 @@ export default function Header() {
     'text-gray-400 py-2 px-4 rounded hover:text-gray-800 transition';
 
   return (
-    <header className="container flex justify-between items-center p-4 bg-white mb-8 ">
+    <header className="container flex justify-between items-center p-4 bg-white mb-8">
       <nav className="ml-auto space-x-4">
-        <a //link tagi kullan
-          href="#skills"
+        <Link
+          to="/skills"
           className={
             activeButton === 'skills'
               ? activeButtonClasses
@@ -21,9 +22,9 @@ export default function Header() {
           onClick={() => setActiveButton('skills')}
         >
           Skills
-        </a>
-        <a
-          href="#projects"
+        </Link>
+        <Link
+          to="/projects"
           className={
             activeButton === 'projects'
               ? activeButtonClasses
@@ -32,9 +33,9 @@ export default function Header() {
           onClick={() => setActiveButton('projects')}
         >
           Projects
-        </a>
-        <a
-          href="#hireme"
+        </Link>
+        <Link
+          to="/hireme"
           className={
             activeButton === 'hireme'
               ? activeButtonClasses
@@ -43,7 +44,7 @@ export default function Header() {
           onClick={() => setActiveButton('hireme')}
         >
           Hire Me
-        </a>
+        </Link>
       </nav>
     </header>
   );

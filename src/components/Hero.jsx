@@ -19,7 +19,7 @@ const Hero = () => {
             Emre Can Kurt
           </h1>
         </div>
-        <h2 className="text-8xl font-bold text-gray-800 mt-8 mb-8">
+        <h2 className="text-8xl font-bold text-gray-800 mt-8 mb-12">
           Creative thinker, minimalism lover
         </h2>
         <p className="text-xl mb-6 text-gray-400 mb-8">
@@ -27,7 +27,7 @@ const Hero = () => {
           for a <br /> Developer who to craft solid and scalable frontend
           products with <br /> great use experiences. Let's shake hands with me.
         </p>
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 mb-12">
           <a
             href="mailto:can.kurt764@gmail.com"
             onClick={() => handleButtonClick('hire')}
