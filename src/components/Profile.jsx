@@ -11,7 +11,7 @@ export default function Profile() {
       <div className="flex justify-between border-gray-300 pb-4 mb-4">
         {/* Profil Bilgileri */}
         <div className="flex flex-col w-1/2 pr-4">
-          <h3 className="text-4xl font-regular text-custom-blue mb-4">
+          <h3 className="text-4xl font-regular text-indigo-700 mb-4">
             Profile
           </h3>
           <div className="flex mb-2">
@@ -36,7 +36,7 @@ export default function Profile() {
 
         {/* About Me Bölümü */}
         <div className="flex flex-col w-1/2 pl-4 ">
-          <h3 className="text-4xl font-regular text-custom-blue mb-4">
+          <h3 className="text-4xl font-regular text-indigo-700 mb-4">
             About Me
           </h3>
           <p className="text-gray-400">{profileData.aboutMe}</p>

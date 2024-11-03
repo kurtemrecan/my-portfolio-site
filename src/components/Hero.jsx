@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="flex flex-col">
         <div className="flex items-center mb-2 mt-12">
           <div className="border-t-2 border-custom-blue w-32"></div>
-          <h1 className="mx-4 text-xl font-regular text-custom-blue">
+          <h1 className="mx-4 text-xl font-regular text-indigo-700">
             Emre Can Kurt
           </h1>
         </div>
@@ -34,7 +34,7 @@ const Hero = () => {
             className={`border border-custom-blue py-2 px-4 rounded transition ${
               clickedButton === 'hire'
                 ? 'bg-custom-blue text-white'
-                : 'text-custom-blue hover:bg-custom-blue hover:text-white'
+                : 'text-indigo-700 hover:bg-custom-blue hover:text-white'
             }`}
           >
             Hire Me
@@ -46,7 +46,7 @@ const Hero = () => {
             className={`flex items-center border border-custom-blue py-2 px-4 rounded transition ${
               clickedButton === 'github'
                 ? 'bg-custom-blue text-white'
-                : 'text-custom-blue hover:bg-custom-blue hover:text-white'
+                : 'text-indigo-700 hover:bg-custom-blue hover:text-white'
             }`}
           >
             <GitHubIcon
@@ -64,7 +64,7 @@ const Hero = () => {
             className={`flex items-center border border-custom-blue py-2 px-4 rounded transition ${
               clickedButton === 'linkedin'
                 ? 'bg-custom-blue text-white'
-                : 'text-custom-blue hover:bg-custom-blue hover:text-white'
+                : 'text-indigo-700 hover:bg-custom-blue hover:text-white'
             }`}
           >
             <LinkedInIcon

@@ -8,7 +8,7 @@ export default function Skills() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {skillsData.map((skill, index) => (
           <div key={index}>
-            <h3 className="text-4xl text-custom-blue font-regular mb-8">
+            <h3 className="text-4xl text-indigo-700 font-regular mb-8">
               {skill.name}
             </h3>
             <p className="text-gray-400">{skill.description}</p>

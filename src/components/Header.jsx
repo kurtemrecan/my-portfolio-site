@@ -5,7 +5,7 @@ export default function Header() {
   const [activeButton, setActiveButton] = useState('hireme');
 
   const activeButtonClasses =
-    'border border-custom-blue text-custom-blue py-2 px-4 rounded transition';
+    'border border-custom-blue text-indigo-700 py-2 px-4 rounded transition';
   const inactiveButtonClasses =
     'text-gray-400 py-2 px-4 rounded hover:text-gray-800 transition';
 
