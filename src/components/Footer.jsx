@@ -6,8 +6,7 @@ export default function Footer() {
       <div className="container flex flex-col items-start">
         <div className="text-left">
           <p className="text-4xl font-regular dark:text-custom-gray mt-8 mb-12">
-            Bir sonraki ürününüz üzerinde <br />
-            birlikte çalışalım
+            Let's work together on <br /> your next product
           </p>
         </div>
         <div className="flex items-center justify-between w-full mt-4">

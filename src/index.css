@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: 'inter';
+}
+
 /* * {
   border: 1px solid purple;
   padding: 0;
