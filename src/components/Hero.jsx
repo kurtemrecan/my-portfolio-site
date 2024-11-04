@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MyImage from '../assets/my-image.png';
+import MyImage from '../assets/asker.jpg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
