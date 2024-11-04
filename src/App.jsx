@@ -8,18 +8,23 @@ import Skills from './components/Skills';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
   return (
-    <div>
-      <ModeSwitch />
-      <Header />
-      <Hero />
-      <Skills />
-      <Profile />
-      <Projects />
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div>
+        <div className="dark:bg-dark-purple">
+          <ModeSwitch />
+          <Header />
+          <Hero />
+          <Skills />
+          <Profile />
+          <Projects />
+        </div>
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 

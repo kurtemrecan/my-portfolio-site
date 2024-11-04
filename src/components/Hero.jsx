@@ -19,10 +19,10 @@ const Hero = () => {
             Emre Can Kurt
           </h1>
         </div>
-        <h2 className="text-8xl font-bold text-gray-800 mt-8 mb-12">
+        <h2 className="text-8xl font-bold text-gray-800 dark:text-custom-gray mt-8 mb-12">
           Creative thinker, minimalism lover
         </h2>
-        <p className="text-xl mb-6 text-gray-400 mb-8">
+        <p className="text-xl mb-6 text-gray-400 dark:text-white mb-8">
           Hi, I'm Emre Can Kurt. I'm a full-stack developer. If you are looking
           for a <br /> Developer who to craft solid and scalable frontend
           products with <br /> great use experiences. Let's shake hands with me.
@@ -31,10 +31,10 @@ const Hero = () => {
           <a
             href="mailto:can.kurt764@gmail.com"
             onClick={() => handleButtonClick('hire')}
-            className={`border border-custom-blue py-2 px-4 rounded transition ${
+            className={`border border-custom-blue dark:border-custom-indigo-lightest py-2 px-4 rounded transition ${
               clickedButton === 'hire'
-                ? 'bg-custom-blue text-white'
-                : 'text-indigo-700 hover:bg-custom-blue hover:text-white'
+                ? 'bg-custom-blue text-white dark:bg-custom-indigo-lightest dark:text-black'
+                : 'text-indigo-700 dark:text-custom-indigo-lightest dark:bg-custom-light-gray'
             }`}
           >
             Hire Me
