@@ -14,8 +14,8 @@ const Hero = () => {
     <section className="container flex items-center justify-between p-8 text-white mt-12">
       <div className="flex flex-col">
         <div className="flex items-center mb-2 mt-12">
-          <div className="border-t-2 border-custom-blue w-32"></div>
-          <h1 className="mx-4 text-xl font-regular text-indigo-700">
+          <div className="border-t-2 border-custom-blue dark:border-custom-indigo-light w-32"></div>
+          <h1 className="mx-4 text-xl font-regular text-indigo-700 dark:text-custom-indigo-light">
             Emre Can Kurt
           </h1>
         </div>
@@ -31,7 +31,7 @@ const Hero = () => {
           <a
             href="mailto:can.kurt764@gmail.com"
             onClick={() => handleButtonClick('hire')}
-            className={`border border-custom-blue dark:border-custom-indigo-lightest py-2 px-4 rounded transition ${
+            className={`border border-custom-blue dark:border-custom-indigo-lightest dark:hover:bg-gray-600  py-2 px-4 rounded transition ${
               clickedButton === 'hire'
                 ? 'bg-custom-blue text-white dark:bg-custom-indigo-lightest dark:text-black'
                 : 'text-indigo-700 dark:text-custom-indigo-lightest dark:bg-custom-light-gray'
@@ -43,17 +43,18 @@ const Hero = () => {
             href="https://github.com/kurtemrecan"
             target="_blank"
             onClick={() => handleButtonClick('github')}
-            className={`flex items-center border border-custom-blue py-2 px-4 rounded transition ${
+            className={`flex items-center border border-custom-blue dark:border-custom-indigo-lightest dark:hover:bg-gray-600  py-2 px-4 rounded transition ${
               clickedButton === 'github'
-                ? 'bg-custom-blue text-white'
-                : 'text-indigo-700 hover:bg-custom-blue hover:text-white'
+                ? 'bg-custom-blue text-white dark:bg-custom-indigo-lightest dark:text-black'
+                : 'text-indigo-700 hover:bg-custom-blue hover:text-white dark:text-custom-indigo-lightest dark:bg-custom-light-gray'
             }`}
           >
             <GitHubIcon
-              style={{
-                color: clickedButton === 'github' ? 'white' : 'custom-blue',
-              }}
-              className="mr-2"
+              className={`mr-2 ${
+                clickedButton === 'github'
+                  ? 'text-white dark:text-black'
+                  : 'text-custom-blue dark:text-custom-purple'
+              }`}
             />
             GitHub
           </a>
@@ -61,17 +62,18 @@ const Hero = () => {
             href="https://www.linkedin.com/in/emrecankurt"
             target="_blank"
             onClick={() => handleButtonClick('linkedin')}
-            className={`flex items-center border border-custom-blue py-2 px-4 rounded transition ${
+            className={`flex items-center border border-custom-blue dark:border-custom-indigo-lightest dark:hover:bg-gray-600 py-2 px-4 rounded transition ${
               clickedButton === 'linkedin'
-                ? 'bg-custom-blue text-white'
-                : 'text-indigo-700 hover:bg-custom-blue hover:text-white'
+                ? 'bg-custom-blue text-white dark:bg-custom-indigo-lightest dark:text-black'
+                : 'text-indigo-700 hover:bg-custom-blue hover:text-white dark:text-custom-indigo-lightest dark:bg-custom-light-gray'
             }`}
           >
             <LinkedInIcon
-              style={{
-                color: clickedButton === 'linkedin' ? 'white' : 'custom-blue',
-              }}
-              className="mr-2"
+              className={`mr-2 ${
+                clickedButton === 'linkedin'
+                  ? 'text-white dark:text-black'
+                  : 'text-custom-blue dark:text-custom-purple'
+              }`}
             />
             LinkedIn
           </a>

@@ -16,6 +16,7 @@ export default {
         'custom-indigo-mid': '#8F88FF',
         'dark-gray': '#141414',
         'custom-light-gray': '#383838',
+        'custom-indigo-midlight': '#CFCBFF',
       },
     },
   },
