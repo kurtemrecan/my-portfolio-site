@@ -4,20 +4,13 @@ const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [language, setLanguage] = useState('en');
 
   const toggleDarkMode = () => {
     setIsDarkMode((prevMode) => !prevMode);
   };
 
-  const changeLanguage = (lang) => {
-    setLanguage(lang);
-  };
-
   return (
-    <ThemeContext.Provider
-      value={{ isDarkMode, toggleDarkMode, language, changeLanguage }}
-    >
+    <ThemeContext.Provider value={{ isDarkMode, toggleDarkMode }}>
       <div className={isDarkMode ? 'dark' : ''}>{children}</div>
     </ThemeContext.Provider>
   );

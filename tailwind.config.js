@@ -17,6 +17,8 @@ export default {
         'dark-gray': '#141414',
         'custom-light-gray': '#383838',
         'custom-indigo-midlight': '#CFCBFF',
+        'darkmode-button': '#D9D9D9',
+        'lightmode-button': '#777777',
       },
     },
   },

@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className="footer bg-gray-100 p-12 ">
+    <div className="footer bg-gray-100 p-12 dark:bg-dark-gray">
       <div className="container flex flex-col items-start">
         <div className="text-left">
-          <p className="text-4xl font-regular mt-8 mb-12">
+          <p className="text-4xl font-regular dark:text-custom-gray mt-8 mb-12">
             Bir sonraki ürününüz üzerinde <br />
             birlikte çalışalım
           </p>
@@ -19,10 +19,15 @@ export default function Footer() {
             >
               👉
             </span>
-            <span className="text-red-600">can.kurt764@gmail.com</span>
+            <span className="text-red-600 dark:text-custom-purple">
+              can.kurt764@gmail.com
+            </span>
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="text-black font-semibold">
+            <a
+              href="#"
+              className="text-black dark:text-custom-indigo-lightest font-regular"
+            >
               Personal Blog
             </a>
             <a href="#" className="text-custom-green">
