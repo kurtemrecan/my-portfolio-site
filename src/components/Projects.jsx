@@ -3,7 +3,7 @@ import projectsData from '../data/projectsData';
 
 export default function Projects() {
   return (
-    <section className="container p-4 ">
+    <section id="projects" className="container p-4 ">
       <hr className="border-t border-custom-purple mt-4" />
       <h2 className="text-6xl font-semibold dark:text-custom-gray mb-12 mt-8">
         Projects

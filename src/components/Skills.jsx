@@ -3,7 +3,7 @@ import skillsData from '../data/skillsData';
 
 export default function Skills() {
   return (
-    <section className="container p-8">
+    <section id="skills" className="container p-8">
       <h2 className="text-6xl font-semibold dark:text-custom-gray mb-8 mt-12">
         Skills
       </h2>

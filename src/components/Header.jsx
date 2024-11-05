@@ -12,7 +12,8 @@ export default function Header() {
   return (
     <header className="container flex justify-between items-center p-4 bg-white dark:bg-dark-purple mb-8">
       <nav className="ml-auto space-x-4">
-        <Link
+        <a
+          href="#skills"
           to="/skills"
           className={
             activeButton === 'skills'
@@ -22,8 +23,9 @@ export default function Header() {
           onClick={() => setActiveButton('skills')}
         >
           Skills
-        </Link>
-        <Link
+        </a>
+        <a
+          href="#projects"
           to="/projects"
           className={
             activeButton === 'projects'
@@ -33,8 +35,8 @@ export default function Header() {
           onClick={() => setActiveButton('projects')}
         >
           Projects
-        </Link>
-        <Link
+        </a>
+        <a
           to="/hireme"
           className={
             activeButton === 'hireme'
@@ -44,7 +46,7 @@ export default function Header() {
           onClick={() => setActiveButton('hireme')}
         >
           Hire Me
-        </Link>
+        </a>
       </nav>
     </header>
   );
