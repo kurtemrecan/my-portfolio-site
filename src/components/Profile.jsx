@@ -12,8 +12,8 @@ export default function Profile() {
         {t('profile')}
       </h2>
 
-      <div className="flex justify-between border-gray-300 pb-4 mb-4">
-        <div className="flex flex-col w-1/2 pr-4">
+      <div className="flex flex-col sm:flex-row justify-between border-gray-300 pb-4 mb-4 gap-4 sm:gap-8">
+        <div className="flex flex-col w-full sm:w-1/2 pr-4">
           <h3 className="text-4xl font-regular text-indigo-700 dark:text-custom-indigo-light mb-4">
             {t('profile')}
           </h3>
@@ -25,7 +25,7 @@ export default function Profile() {
             <strong className="w-48">{t('residence')}</strong>
             <span className="ml-4">{t('residenceValue')}</span>
           </div>
-          <div className="flex mb-2 dark:text-white ">
+          <div className="flex mb-2 dark:text-white">
             <strong className="w-48">{t('education')}</strong>
             <span className="ml-4">
               {t('educationValue')
@@ -44,7 +44,7 @@ export default function Profile() {
           </div>
         </div>
 
-        <div className="flex flex-col w-1/2 pl-4 ">
+        <div className="flex flex-col w-full sm:w-1/2 pl-0 sm:p-0">
           <h3 className="text-4xl font-regular text-indigo-700 dark:text-custom-indigo-light mb-4">
             {t('aboutMe')}
           </h3>
