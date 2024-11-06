@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Avatar from './Avatar';
 
 export default function Header() {
   const [activeButton, setActiveButton] = useState('hireme');
@@ -11,6 +12,7 @@ export default function Header() {
 
   return (
     <header className="container flex justify-between items-center p-4 bg-white dark:bg-dark-purple mb-8">
+      <Avatar />
       <nav className="ml-auto space-x-4">
         <a
           href="#skills"
