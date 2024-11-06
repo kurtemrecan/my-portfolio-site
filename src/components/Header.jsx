@@ -5,9 +5,9 @@ export default function Header() {
   const [activeButton, setActiveButton] = useState('hireme');
 
   const activeButtonClasses =
-    'border border-custom-blue text-indigo-700 py-2 px-4 dark:bg-white dark:text-custom-indigo-dark rounded transition';
+    'border border-custom-blue text-indigo-700 py-2 px-4 dark:bg-custom-indigo-lighetest dark:text-custom-indigo-dark rounded transition';
   const inactiveButtonClasses =
-    'text-gray-400 py-2 px-4 rounded hover:text-gray-800 dark:text-gray-500 transition';
+    'text-gray-400 py-2 px-4 rounded hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-300 transition';
 
   return (
     <header className="container flex justify-between items-center p-4 bg-white dark:bg-dark-purple mb-8">
@@ -39,11 +39,13 @@ export default function Header() {
         <a
           to="/hireme"
           href="mailto:can.kurt764@gmail.com"
-          className={
-            activeButton === 'hireme'
-              ? activeButtonClasses
-              : inactiveButtonClasses
-          }
+          className={`
+            ${
+              activeButton === 'hireme'
+                ? activeButtonClasses
+                : inactiveButtonClasses
+            } dark:bg-custom-indigo-lightest dark:hover:bg-gray-600 dark:hover:text-black dark:hover:border-custom-indigo-lightest
+          `}
           onClick={() => setActiveButton('hireme')}
         >
           Hire Me
