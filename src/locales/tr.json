@@ -1,0 +1,77 @@
+{
+  "projectsData": [
+    {
+      "id": 1,
+      "title": "Manifest",
+      "description": "Bu site, geleneksel Türk rakı-balık kültürünü modern bir dijital deneyimle bir araya getirmek için tasarlanmıştır. React, HTML, CSS ve JavaScript kullanılarak geliştirilen site, lezzetli menülerimizi keşfetmenizi, rezervasyon yapmanızı ve restoranımız hakkında daha fazla bilgi edinmenizi sağlayan kullanıcı dostu bir arayüze sahiptir. Misafirlerimize denizden masaya taze ve unutulmaz bir deneyim sunmayı hedefliyoruz.",
+      "image": "../assets/manifest-portfolio.png",
+      "githubLink": "https://github.com/kurtemrecan/manifest",
+      "siteLink": "https://manifest-fawn.vercel.app",
+      "technologies": ["React", "JavaScript", "TailwindCss"]
+    },
+    {
+      "id": 2,
+      "title": "Pizza",
+      "description": "Bu site, React ve Tailwind CSS kullanılarak modern bir tasarımla hazırlanmıştır ve lezzetli pizzalarımızı kolayca keşfetmenizi ve sipariş vermenizi sağlar. Kullanıcı dostu arayüzü sayesinde, pizza çeşitlerimizi inceleyebilir, istediğiniz lezzeti hızlıca sipariş edebilir ve size en yakın şubeyi bulabilirsiniz. Kaliteli malzemelerle ve taze tatlarla yapılan pizzalarımızı denemenizi sabırsızlıkla bekliyoruz!",
+      "image": "../assets/bol-malzemos.png",
+      "githubLink": "https://github.com/kurtemrecan/bol-malzemos",
+      "siteLink": "https://bol-malzemos.vercel.app/",
+      "technologies": ["React", "JavaScript", "TailwindCss"]
+    },
+    {
+      "id": 3,
+      "title": "Add Cart",
+      "description": "Kullanıcıların ürünleri sepete ekleyip çıkarmasına olanak tanıyan basit bir alışveriş deneyimi sunar. Bu proje, React ve Context API kullanarak geliştirilmiştir. Kullanıcılar, ürünleri görüntüledikten sonra sepete ekleyebilir ve sepetlerinde bulunan ürünleri kolayca yönetebilirler.",
+      "image": "../assets/add-cart.jpeg",
+      "githubLink": "https://github.com/kurtemrecan/add-cart.git",
+      "siteLink": "https://add-cart-puce.vercel.app/",
+      "technologies": ["React", "JavaScript", "ContextApi"]
+    }
+  ],
+  "projects": "Projeler",
+  "entry": "Yaratıcı düşünen, minimalizmi seven.",
+  "heroAbout": "Merhaba, ben Emre Can Kurt. Ben bir full-stack geliştiricisiyim. Eğer sağlam ve ölçeklenebilir frontend ürünleri tasarlayacak bir geliştirici arıyorsanız, harika kullanıcı deneyimleri sunuyorum. Benimle el sıkışalım.",
+  "skills": "Yetenekler",
+  "skillsData": [
+    {
+      "name": "JavaScript",
+      "description": "JavaScript, web sayfalarında dinamik içerikler oluşturmak için kullanılan güçlü bir programlama dilidir."
+    },
+    {
+      "name": "React.Js",
+      "description": "React, kullanıcı arayüzleri oluşturmak için kullanılan, bileşen tabanlı bir JavaScript kütüphanesidir."
+    },
+    {
+      "name": "Node.Js",
+      "description": "Node.js, sunucu tarafında JavaScript çalıştırmayı sağlayan bir platformdur. Yüksek performanslı uygulamalar geliştirmek için idealdir."
+    },
+    {
+      "name": "VS Code",
+      "description": "Visual Studio Code, yazılım geliştirme için popüler bir kod editörüdür. Kullanıcı dostu arayüzü ile pek çok uzantı desteği sunar."
+    },
+    {
+      "name": "Redux",
+      "description": "Redux, uygulama durumunu yönetmek için kullanılan bir kütüphanedir. Özellikle React uygulamaları ile birlikte yaygın olarak kullanılır."
+    },
+    {
+      "name": "Figma",
+      "description": "Figma, kullanıcı arayüzü tasarımı ve prototipleme için kullanılan çevrimiçi bir tasarım aracıdır. Ekiplerin birlikte çalışmasını kolaylaştırır."
+    },
+    {
+      "name": "TailwindCss",
+      "description": "Tailwind CSS, hızlı bir şekilde özelleştirilmiş kullanıcı arayüzleri oluşturmak için kullanılan bir CSS framework'üdür. Utility-first yaklaşımı ile dikkat çeker."
+    }
+  ],
+  "profile": "Profil",
+
+  "birthDate": "Doğum Tarihi",
+  "residence": "İkamet",
+  "education": "Eğitim Durumu",
+  "role": "Rol",
+  "aboutMe": "Hakkımda",
+  "aboutMeValue": "Teknoloji ve yazılım geliştirme alanına tutkuluyum. Çeşitli projelerde edindiğim deneyimle, kullanıcı odaklı çözümler geliştirmeye ve verimliliği artırmaya odaklanıyorum. Yenilikçi fikirleri hayata geçirme konusundaki kararlılığım, ekip çalışmasına ve sürekli öğrenmeye olan tutkumla birleşiyor. Bağlantıda kalmayı ve deneyimlerimizi paylaşmayı dört gözle bekliyorum!",
+  "birthDateValue": "30.08.1997",
+  "residenceValue": "Adana",
+  "educationValue": "Ege Ünv. Matematik ve Bilgisayar Bilimleri \n Lisans 2016",
+  "roleValue": "Frontend, UI"
+}

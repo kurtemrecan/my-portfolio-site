@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import MyImage from '../assets/asker.jpg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { useLanguage } from '../context/LanguageContext';
 
 const Hero = () => {
   const [clickedButton, setClickedButton] = useState('hire');
-
+  const { t } = useLanguage();
   const handleButtonClick = (button) => {
     setClickedButton(button);
   };
@@ -20,12 +21,10 @@ const Hero = () => {
           </h1>
         </div>
         <h2 className="text-4xl sm:text-6xl md:text-8xl font-bold text-gray-800 dark:text-custom-gray mt-8 mb-12">
-          Creative thinker, minimalism lover
+          {t('entry')}
         </h2>
         <p className="text-base sm:text-lg md:text-xl mb-6 text-gray-400 dark:text-white mb-8">
-          Hi, I'm Emre Can Kurt. I'm a full-stack developer. If you are looking
-          for a <br /> Developer who to craft solid and scalable frontend
-          products with <br /> great use experiences. Let's shake hands with me.
+          {t('heroAbout')}
         </p>
         <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-4 mb-12">
           <a

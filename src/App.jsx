@@ -9,21 +9,24 @@ import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
 
 function App() {
   return (
     <ThemeProvider>
-      <div>
-        <div className="dark:bg-dark-purple">
-          <ModeSwitch />
-          <Header />
-          <Hero />
-          <Skills />
-          <Profile />
-          <Projects />
+      <LanguageProvider>
+        <div>
+          <div className="dark:bg-dark-purple">
+            <ModeSwitch />
+            <Header />
+            <Hero />
+            <Skills />
+            <Profile />
+            <Projects />
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
+      </LanguageProvider>
     </ThemeProvider>
   );
 }

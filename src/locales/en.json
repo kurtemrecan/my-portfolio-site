@@ -1,0 +1,77 @@
+{
+  "projectsData": [
+    {
+      "id": 1,
+      "title": "Manifest",
+      "description": "This site is designed to bring traditional Turkish rakı-fish culture together with a modern digital experience. Developed using React, HTML, CSS, and JavaScript, the site allows you to explore our delicious menus, make reservations, and learn more about our restaurant with its user-friendly interface. We aim to provide our guests with a fresh and unforgettable experience from the sea to the table.",
+      "image": "../assets/manifest-portfolio.png",
+      "githubLink": "https://github.com/kurtemrecan/manifest",
+      "siteLink": "https://manifest-fawn.vercel.app",
+      "technologies": ["React", "JavaScript", "TailwindCss"]
+    },
+    {
+      "id": 2,
+      "title": "Pizza",
+      "description": "This site is designed with a modern layout using React and Tailwind CSS to allow you to easily explore our delicious pizzas and place orders. Thanks to its user-friendly interface, you can browse our pizza varieties, quickly order your desired flavor, and find the nearest branch to you. We can’t wait for you to try our pizzas made with high-quality ingredients and fresh flavors!",
+      "image": "../assets/bol-malzemos.png",
+      "githubLink": "https://github.com/kurtemrecan/bol-malzemos",
+      "siteLink": "https://bol-malzemos.vercel.app/",
+      "technologies": ["React", "JavaScript", "TailwindCss"]
+    },
+    {
+      "id": 3,
+      "title": "Add Cart",
+      "description": "It offers a simple shopping experience that allows users to add and remove products from their cart. This project is developed using React and Context API. After viewing products, users can add them to their cart and easily manage the products in their cart.",
+      "image": "../assets/add-cart.jpeg",
+      "githubLink": "https://github.com/kurtemrecan/add-cart.git",
+      "siteLink": "https://add-cart-puce.vercel.app/",
+      "technologies": ["React", "JavaScript", "TailwindCss"]
+    }
+  ],
+  "projects": "Projects",
+  "entry": "Creative thinker, minimalism lover",
+  "heroAbout": "Hi, I`m Emre Can Kurt. I`m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great use experiences. Let's shake hands with me.",
+  "skills": "Skills",
+  "skillsData": [
+    {
+      "name": "Java Script",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "React.Js",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "Node.Js",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "VS Code",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "Redux",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "Figma",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "TailwindCss",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+    }
+  ],
+  "profile": "Profile",
+
+  "birthDate": "Birth Date",
+  "residence": "Residence",
+  "education": "Education",
+  "role": "Role",
+  "aboutMe": "About Me",
+  "aboutMeValue": "I'm passionate about technology and software development. With the experience I've gained from various projects, I focus on creating user-centered solutions and enhancing productivity. My commitment to bringing innovative ideas to life is combined with a strong dedication to teamwork and continuous learning. I look forward to staying connected and sharing our experiences!",
+  "birthDateValue": "30.08.1997",
+  "residenceValue": "Adana",
+  "educationValue": "Ege University, Math and Computer Science\nBachelor's degree 2016",
+  "roleValue": "Frontend, UI"
+}

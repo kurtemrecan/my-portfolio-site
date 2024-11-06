@@ -1,20 +1,20 @@
 import { createContext, useContext, useState } from 'react';
+import en_data from '../locales/en.json';
+import tr_data from '../locales/tr.json';
+import useLocalStorage from '../hooks/useLocalStorage';
 
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useLocalStorage('language', 'en');
 
-  const translate = (key) => {
-    return translations[language][key] || key;
-  };
-
-  const toggleLanguage = () => {
-    setLanguage((prev) => (prev === 'en' ? 'tr' : 'en'));
+  const t = (key) => {
+    const translate = language === 'en' ? tr_data : en_data;
+    return translate[key] || key;
   };
 
   return (
-    <LanguageContext.Provider value={(language, translate, toggleLanguage)}>
+    <LanguageContext.Provider value={{ language, t, setLanguage }}>
       {children}
     </LanguageContext.Provider>
   );

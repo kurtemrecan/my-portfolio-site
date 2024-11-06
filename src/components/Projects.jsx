@@ -1,24 +1,35 @@
-import React from 'react';
-import projectsData from '../data/projectsData';
+import React, { useEffect, useState } from 'react';
+
+import { useLanguage } from '../context/LanguageContext';
+import en_data from '../locales/en.json';
+import tr_data from '../locales/tr.json';
 
 export default function Projects() {
+  const { t, language } = useLanguage();
+  useEffect(() => {
+    setProjects(
+      language === 'en' ? tr_data.projectsData : en_data.projectsData
+    );
+  }, [language]);
+
+  const [projects, setProjects] = useState(tr_data.projectsData);
   return (
     <section id="projects" className="container p-4 ">
       <hr className="border-t border-custom-purple mt-4" />
       <h2 className="text-6xl font-semibold dark:text-custom-gray mb-12 mt-8">
-        Projects
+        {t('projects')}
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {' '}
         {/* gap ile oynayınca kartların boyutu değişiyor neden? */}
-        {projectsData.map((project) => (
+        {projects.map((project) => (
           <div key={project.id} className="overflow-hidden">
             <img
               src={project.image}
               alt={project.title}
               className="w-full h-48 object-cover"
             />
-            <div className="p-0.5">
+            <div>
               <h3 className="text-2xl font-semibold text-indigo-700 dark:text-custom-indigo-midlight mb-4 mt-4">
                 {project.title}
               </h3>

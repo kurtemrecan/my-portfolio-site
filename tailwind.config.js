@@ -19,6 +19,7 @@ export default {
         'custom-indigo-midlight': '#CFCBFF',
         'darkmode-button': '#D9D9D9',
         'lightmode-button': '#777777',
+        'custom-button-purple': '#4731D3',
       },
     },
   },
