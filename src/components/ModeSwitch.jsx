@@ -13,11 +13,11 @@ export default function ModeSwitch() {
       <div className="flex">
         <button
           onClick={toggleDarkMode}
-          className="relative flex items-center w-14 h-6 p-0.5 bg-custom-button-purple dark:bg-gray-600 rounded-full transition-colors duration-300 focus:outline-none"
+          className="relative flex items-center w-12 h-4 p-0.5 bg-custom-button-purple dark:bg-gray-600 rounded-full transition-colors duration-300 focus:outline-none"
         >
           {/* Toggle butonunun yuvarlak kısmı */}
           <span
-            className={`absolute w-5 h-5 bg-white rounded-full shadow-md transform transition-transform duration-300 ${
+            className={`absolute w-3 h-3 bg-white rounded-full shadow-md transform transition-transform duration-300 ${
               isDarkMode ? 'translate-x-8' : 'translate-x-0'
             }`}
           ></span>
@@ -32,7 +32,7 @@ export default function ModeSwitch() {
         </button>
         {/* Mod Yazısı */}
         <span
-          className={`text-m font-semibold ml-2 ${
+          className={`text-xs font-semibold ml-2 ${
             isDarkMode ? 'text-darkmode-button' : 'text-lightmode-button'
           }`}
         >
@@ -47,11 +47,10 @@ export default function ModeSwitch() {
         |
       </span>
       <div className="flex items-center">
-        <span className="hidden md:block mx-2">|</span>
         {language === 'en' ? (
           <button
             onClick={() => setLanguage('tr')}
-            className="text-s dark:text-white"
+            className="text-xs dark:text-white"
           >
             <span className="font-semibold text-custom-button-purple hover:underline">
               TÜRKÇE
@@ -61,7 +60,7 @@ export default function ModeSwitch() {
         ) : (
           <button
             onClick={() => setLanguage('en')}
-            className="text-s dark:text-white"
+            className="text-xs dark:text-white"
           >
             SWITCH TO
             <span className="font-semibold text-custom-button-purple hover:underline">
