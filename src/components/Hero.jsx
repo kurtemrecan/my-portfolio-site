@@ -82,7 +82,7 @@ const Hero = () => {
       <img
         src={MyImage}
         alt="profile-photo"
-        className="rounded-lg shadow-4xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4 mb-8 sm:mb-0"
+        className="rounded-lg shadow-4xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4 mb-8 sm:mb-0 "
       />
     </section>
   );

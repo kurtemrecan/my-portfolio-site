@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import en_data from '../locales/en.json';
 import tr_data from '../locales/tr.json';
-import ApiCall from '../api/SendApi';
+import ApiCall from '../api/ApiCall';
 
 export default function Projects() {
   const { t, language } = useLanguage();

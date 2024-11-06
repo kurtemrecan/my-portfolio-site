@@ -1,12 +1,14 @@
 import React from 'react';
+import { useLanguage } from '../context/LanguageContext';
 
 export default function Footer() {
+  const { t } = useLanguage();
   return (
     <div className="footer bg-gray-100 p-12 dark:bg-dark-gray">
       <div className="container flex flex-col items-start">
         <div className="text-left">
           <p className="text-2xl sm:text-4xl font-regular dark:text-custom-gray mt-8 mb-12">
-            Let's work together on your <br /> next product
+            {t('footerAbout')}
           </p>
         </div>
         <div className="flex flex-col sm:flex-row items-center justify-between w-full mt-4">
