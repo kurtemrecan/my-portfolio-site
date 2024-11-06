@@ -25,7 +25,7 @@
       "image": "../assets/add-cart.jpeg",
       "githubLink": "https://github.com/kurtemrecan/add-cart.git",
       "siteLink": "https://add-cart-puce.vercel.app/",
-      "technologies": ["React", "JavaScript", "TailwindCss"]
+      "technologies": ["React", "JavaScript", "ContextApi"]
     }
   ],
   "projects": "Projects",

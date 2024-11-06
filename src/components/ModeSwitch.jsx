@@ -47,9 +47,10 @@ export default function ModeSwitch() {
         |
       </span>
       <div className="flex items-center">
-        {language === 'en' ? (
+        {/* Lang Yazısı */}
+        {language === 'tr' ? (
           <button
-            onClick={() => setLanguage('tr')}
+            onClick={() => setLanguage('en')}
             className="text-xs dark:text-white"
           >
             <span className="font-semibold text-custom-button-purple hover:underline">
@@ -59,7 +60,7 @@ export default function ModeSwitch() {
           </button>
         ) : (
           <button
-            onClick={() => setLanguage('en')}
+            onClick={() => setLanguage('tr')}
             className="text-xs dark:text-white"
           >
             SWITCH TO

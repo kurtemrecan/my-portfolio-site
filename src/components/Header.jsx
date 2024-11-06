@@ -38,6 +38,7 @@ export default function Header() {
         </a>
         <a
           to="/hireme"
+          href="mailto:can.kurt764@gmail.com"
           className={
             activeButton === 'hireme'
               ? activeButtonClasses
