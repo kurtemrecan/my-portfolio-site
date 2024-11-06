@@ -34,32 +34,32 @@
   "skills": "Skills",
   "skillsData": [
     {
-      "name": "Java Script",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+      "name": "JavaScript",
+      "description": "JavaScript is a powerful programming language used to create dynamic content on web pages."
     },
     {
       "name": "React.Js",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+      "description": "React is a component-based JavaScript library used to build user interfaces."
     },
     {
       "name": "Node.Js",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+      "description": "Node.js is a platform that allows JavaScript to be run on the server side. It is ideal for building high-performance applications."
     },
     {
       "name": "VS Code",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+      "description": "Visual Studio Code is a popular code editor for software development. It offers a user-friendly interface and supports many extensions."
     },
     {
       "name": "Redux",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+      "description": "Redux is a library used for managing application state. It is commonly used with React applications."
     },
     {
       "name": "Figma",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+      "description": "Figma is an online design tool used for UI design and prototyping. It makes collaboration among teams easier."
     },
     {
       "name": "TailwindCss",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
+      "description": "Tailwind CSS is a CSS framework used to quickly create customized user interfaces. It stands out with its utility-first approach."
     }
   ],
   "hireme": "Hire Me",
