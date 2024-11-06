@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Avatar from './Avatar';
+import { useLanguage } from '../context/LanguageContext';
 
 export default function Header() {
   const [activeButton, setActiveButton] = useState('hireme');
+
+  const { t } = useLanguage();
 
   const activeButtonClasses =
     'border border-custom-blue text-indigo-700 py-2 px-4 dark:bg-custom-indigo-lighetest dark:text-custom-indigo-dark rounded transition';
@@ -24,7 +27,7 @@ export default function Header() {
           }
           onClick={() => setActiveButton('skills')}
         >
-          Skills
+          {t('skills')}
         </a>
         <a
           href="#projects"
@@ -36,7 +39,7 @@ export default function Header() {
           }
           onClick={() => setActiveButton('projects')}
         >
-          Projects
+          {t('projects')}
         </a>
         <a
           to="/hireme"
@@ -50,7 +53,7 @@ export default function Header() {
           `}
           onClick={() => setActiveButton('hireme')}
         >
-          Hire Me
+          {t('hireme')}
         </a>
       </nav>
     </header>

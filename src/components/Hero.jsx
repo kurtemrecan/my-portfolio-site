@@ -24,7 +24,7 @@ const Hero = () => {
         <h2 className="text-4xl sm:text-6xl md:text-8xl font-bold text-gray-800 dark:text-custom-gray mt-8 mb-12">
           {t('entry')}
         </h2>
-        <p className="text-base sm:text-lg md:text-xl mb-6 text-gray-400 dark:text-white mb-8">
+        <p className="text-base sm:text-lg md:text-xl mr-4 text-gray-400 dark:text-white mb-8">
           {t('heroAbout')}
         </p>
         <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 mb-12 w-full sm:w-auto">
@@ -37,7 +37,7 @@ const Hero = () => {
                 : 'text-indigo-700 dark:text-custom-indigo-lightest dark:bg-custom-light-gray'
             }`}
           >
-            Hire Me
+            {t('hireme')}
           </a>
           <a
             href="https://github.com/kurtemrecan"

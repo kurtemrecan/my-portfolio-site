@@ -62,8 +62,9 @@
       "description": "Excepteur sint occaecat cupidatat non proident, sunt in culba qui officia deserunt mollit anim id est laborum."
     }
   ],
+  "hireme": "Hire Me",
+  "wiewSite": "Wiew Site",
   "profile": "Profile",
-
   "birthDate": "Birth Date",
   "residence": "Residence",
   "education": "Education",

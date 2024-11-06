@@ -62,8 +62,9 @@
       "description": "Tailwind CSS, hızlı bir şekilde özelleştirilmiş kullanıcı arayüzleri oluşturmak için kullanılan bir CSS framework'üdür. Utility-first yaklaşımı ile dikkat çeker."
     }
   ],
+  "hireme": "İşe Al",
+  "wiewSite": "Siteyi Gör",
   "profile": "Profil",
-
   "birthDate": "Doğum Tarihi",
   "residence": "İkamet",
   "education": "Eğitim Durumu",

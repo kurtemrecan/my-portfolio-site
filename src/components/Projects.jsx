@@ -64,7 +64,7 @@ export default function Projects() {
                   target="_blank"
                   className="text-indigo-700 dark:text-custom-indigo-lightest underline"
                 >
-                  View Site
+                  {t('wiewSite')}
                 </a>
               </div>
             </div>

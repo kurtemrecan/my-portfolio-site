@@ -3,3 +3,8 @@
   margin: 0 auto;
   padding: 1rem; /* Sağdan ve soldan 1rem boşluk */
 }
+@media (max-width: 768px) {
+  .container {
+    overflow-x: hidden;
+  }
+}
