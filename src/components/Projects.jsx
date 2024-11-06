@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import en_data from '../locales/en.json';
 import tr_data from '../locales/tr.json';
+import ApiCall from '../api/SendApi';
 
 export default function Projects() {
   const { t, language } = useLanguage();
@@ -19,6 +20,7 @@ export default function Projects() {
       <h2 className="text-6xl font-semibold dark:text-custom-gray mb-12 mt-8">
         {t('projects')}
       </h2>
+      <ApiCall />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {' '}
         {/* gap ile oynayınca kartların boyutu değişiyor neden? */}
