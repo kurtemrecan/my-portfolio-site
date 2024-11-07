@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import Avatar from './Avatar';
+import { Link } from 'react-scroll';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function Header() {
@@ -17,9 +17,10 @@ export default function Header() {
     <header className="container flex justify-between items-center p-4 bg-white dark:bg-dark-purple mb-8">
       <Avatar />
       <nav className="ml-auto space-x-4">
-        <a
-          href="#skills"
-          to="/skills"
+        <Link
+          to="skills"
+          smooth={true}
+          duration={500}
           className={
             activeButton === 'skills'
               ? activeButtonClasses
@@ -28,10 +29,11 @@ export default function Header() {
           onClick={() => setActiveButton('skills')}
         >
           {t('skills')}
-        </a>
-        <a
-          href="#projects"
-          to="/projects"
+        </Link>
+        <Link
+          to="projects"
+          smooth={true}
+          duration={500}
           className={
             activeButton === 'projects'
               ? activeButtonClasses
@@ -40,8 +42,8 @@ export default function Header() {
           onClick={() => setActiveButton('projects')}
         >
           {t('projects')}
-        </a>
-        <a
+        </Link>
+        <Link
           to="/hireme"
           href="mailto:can.kurt764@gmail.com"
           className={`
@@ -54,7 +56,7 @@ export default function Header() {
           onClick={() => setActiveButton('hireme')}
         >
           {t('hireme')}
-        </a>
+        </Link>
       </nav>
     </header>
   );
