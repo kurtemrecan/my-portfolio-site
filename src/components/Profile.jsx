@@ -18,16 +18,16 @@ export default function Profile() {
             {t('profile')}
           </h3>
           <div className="flex mb-2 dark:text-white">
-            <strong className="w-48">{t('birthDate')}</strong>
-            <span className="ml-4">{t('birthDateValue')}</span>
+            <strong className="w-1/2">{t('birthDate')}</strong>
+            <span className="ml-4 w-1/2">{t('birthDateValue')}</span>
           </div>
           <div className="flex mb-2 dark:text-white">
-            <strong className="w-48">{t('residence')}</strong>
-            <span className="ml-4">{t('residenceValue')}</span>
+            <strong className="w-1/2">{t('residence')}</strong>
+            <span className="ml-4 w-1/2">{t('residenceValue')}</span>
           </div>
           <div className="flex mb-2 dark:text-white">
-            <strong className="w-48">{t('education')}</strong>
-            <span className="ml-4">
+            <strong className="w-1/2">{t('education')}</strong>
+            <span className="ml-4 w-1/2">
               {t('educationValue')
                 .split('\n')
                 .map((line, index) => (
@@ -39,8 +39,8 @@ export default function Profile() {
             </span>
           </div>
           <div className="flex mb-2 dark:text-white">
-            <strong className="w-48">{t('role')}</strong>
-            <span className="ml-4">{t('roleValue')}</span>
+            <strong className="w-1/2">{t('role')}</strong>
+            <span className="ml-4 w-1/2">{t('roleValue')}</span>
           </div>
         </div>
 

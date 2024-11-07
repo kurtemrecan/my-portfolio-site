@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section className="container flex flex-col sm:flex-row items-center justify-between p-8 text-white mt-12 overflow-x-hidden">
       <div className="flex flex-col items-center sm:items-start sm:text-left w-full sm:w-auto">
-        <div className="flex items-center mb-2 mt-12 justify-start">
+        <div className="flex self-start items-center mb-2 mt-12 justify-start">
           <div className="border-t-2 border-custom-indigo-dark dark:border-custom-indigo-light w-32"></div>
           <h1 className="mx-4 text-lg sm:text-xl md:text-2xl font-regular text-custom-indigo-dark dark:text-custom-indigo-light">
             Emre Can Kurt

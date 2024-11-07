@@ -28,7 +28,6 @@ const ApiCall = () => {
 
   return (
     <div>
-      <h3>API Response:</h3>
       <pre>{JSON.stringify(data, null, 2)}</pre>
     </div>
   );
