@@ -5,18 +5,17 @@ import { useLanguage } from '../context/LanguageContext';
 
 export default function Header() {
   const [activeButton, setActiveButton] = useState('hireme');
-
   const { t } = useLanguage();
 
   const activeButtonClasses =
-    'border border-custom-blue text-indigo-700 py-2 px-4 dark:bg-custom-indigo-lighetest dark:text-custom-indigo-dark rounded transition';
+    'border border-custom-blue text-indigo-700 py-1 px-3 dark:bg-custom-indigo-lightest dark:text-custom-indigo-dark rounded transition text-sm md:text-base';
   const inactiveButtonClasses =
-    'text-gray-400 py-2 px-4 rounded hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-300 transition';
+    'text-gray-400 py-1 px-3 rounded hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-300 transition text-sm md:text-base';
 
   return (
     <header className="container flex justify-between items-center p-4 bg-white dark:bg-dark-purple mb-8">
       <Avatar />
-      <nav className="ml-auto space-x-4">
+      <nav className="ml-auto flex space-x-2 flex-wrap">
         <Link
           to="skills"
           smooth={true}
