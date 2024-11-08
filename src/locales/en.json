@@ -75,5 +75,8 @@
   "birthDateValue": "30.08.1997",
   "residenceValue": "Adana",
   "educationValue": "Ege University, Math and Computer Science\nBachelor's degree 2016",
-  "roleValue": "Frontend, UI"
+  "roleValue": "Frontend, UI",
+  "toastMail": "You are being redirected to e-mail!",
+  "toastGithub": "You are being redirected to Github!",
+  "toastLinkedin": "You are being redirected to Linkedin!"
 }

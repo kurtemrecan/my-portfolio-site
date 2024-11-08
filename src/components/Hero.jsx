@@ -3,12 +3,22 @@ import MyImage from '../assets/myimg.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { useLanguage } from '../context/LanguageContext';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Hero = () => {
   const [clickedButton, setClickedButton] = useState('hire');
   const { t } = useLanguage();
   const handleButtonClick = (button) => {
     setClickedButton(button);
+
+    if (button === 'hire') {
+      toast.success(t('toastMail'));
+    } else if (button === 'github') {
+      toast.success(t('toastGithub'));
+    } else if (button === 'linkedin') {
+      toast.success(t('toastLinkedin'));
+    }
   };
 
   return (
@@ -84,6 +94,7 @@ const Hero = () => {
         alt="profile-photo"
         className="rounded-lg shadow-4xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4 mb-8 sm:mb-0 "
       />
+      <ToastContainer autoClose={3000} />
     </section>
   );
 };

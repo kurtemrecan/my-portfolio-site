@@ -75,5 +75,8 @@
   "birthDateValue": "30.08.1997",
   "residenceValue": "Adana",
   "educationValue": "Ege Ünv. Matematik ve Bilgisayar Bilimleri \n Lisans 2016",
-  "roleValue": "Frontend, UI"
+  "roleValue": "Frontend, UI",
+  "toastMail": "Mail adresine yönlendiriliyorsunuz!",
+  "toastGithub": "Github'a yönlendiriliyorsunuz!",
+  "toastLinkedin": "Linkedin'e yönlendiriliyorsunuz!"
 }
