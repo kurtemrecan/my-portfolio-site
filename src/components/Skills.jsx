@@ -7,10 +7,10 @@ import tr_data from '../locales/tr.json';
 export default function Skills() {
   const { t, language } = useLanguage();
   useEffect(() => {
-    setSkills(language === 'en' ? tr_data.skillsData : en_data.skillsData);
+    setSkills(language === 'en' ? en_data.skillsData : tr_data.skillsData);
   }, [language]);
 
-  const [skills, setSkills] = useState(tr_data.projectsData);
+  const [skills, setSkills] = useState(en_data.projectsData);
   return (
     <section id="skills" className="container p-8">
       <h2 className="text-6xl font-semibold dark:text-custom-gray mb-8 mt-12">

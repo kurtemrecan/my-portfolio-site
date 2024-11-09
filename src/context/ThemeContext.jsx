@@ -7,7 +7,7 @@ export const ThemeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useLocalStorage('isDarkMode', false);
 
   const toggleDarkMode = () => {
-    setIsDarkMode((prevMode) => !prevMode);
+    setIsDarkMode(!isDarkMode);
   };
 
   return (
