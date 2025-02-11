@@ -22,18 +22,18 @@ export const LanguageProvider = ({ children }) => {
     axios
       .post('https://reqres.in/api/translate', translate)
       .then((res) => {
-        console.log('deneme', res.data);
-        setCurrentContent(res.data); // API'den gelen veriyi state'e kaydediyoruz
+        console.log('Post İşlemi başarlı:', res.data);
+        setCurrentContent(res.data); // api'deki veriyi statee kaydediyoruz
         toast.success(t('ceviriBasarili'));
       })
       .catch((err) => {
         console.warn('hata', err);
       });
-  }, [language]); // Dil değişiminde sadece bir kez çalışır
+  }, [language]); // dil değişiminde sadece bir kez çalışır
 
   return (
     <LanguageContext.Provider
-      value={{ language, t, setLanguage, currentContent }}
+      value={{ language, t, setLanguage, currentContent }} //value verdik ki ilgili bileşenlerde useLamguage ile ulaşalım
     >
       {children}
     </LanguageContext.Provider>
