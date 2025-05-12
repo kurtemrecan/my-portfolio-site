@@ -6,7 +6,7 @@
       "description": "Bu site, geleneksel Türk rakı-balık kültürünü modern bir dijital deneyimle bir araya getirmek için tasarlanmıştır. React, HTML, CSS ve JavaScript kullanılarak geliştirilen site, lezzetli menülerimizi keşfetmenizi, rezervasyon yapmanızı ve restoranımız hakkında daha fazla bilgi edinmenizi sağlayan kullanıcı dostu bir arayüze sahiptir. Misafirlerimize denizden masaya taze ve unutulmaz bir deneyim sunmayı hedefliyoruz.",
       "image": "../assets/manifest-portfolio.png",
       "githubLink": "https://github.com/kurtemrecan/manifest",
-      "siteLink": "https://manifest-fawn.vercel.app",
+      "siteLink": "https://www.manifestrestoran.com",
       "technologies": ["React", "JavaScript", "TailwindCss"]
     },
     {
@@ -20,12 +20,12 @@
     },
     {
       "id": 3,
-      "title": "Add Cart",
-      "description": "Kullanıcıların ürünleri sepete ekleyip çıkarmasına olanak tanıyan basit bir alışveriş deneyimi sunar. Bu proje, React ve Context API kullanarak geliştirilmiştir. Kullanıcılar, ürünleri görüntüledikten sonra sepete ekleyebilir ve sepetlerinde bulunan ürünleri kolayca yönetebilirler.",
-      "image": "../assets/add-cart.jpeg",
-      "githubLink": "https://github.com/kurtemrecan/add-cart.git",
-      "siteLink": "https://add-cart-puce.vercel.app/",
-      "technologies": ["React", "JavaScript", "ContextApi"]
+      "title": "Ürün Carousel'i",
+      "description": "Bu JavaScript bileşeni, önerilen ürünleri gösteren duyarlı (responsive) bir ürün karuseli oluşturur. Favorilere ekleme, indirim göstergesi ve sepete ekleme gibi işlevler içerir. Verileri bir JSON uç noktasından (endpoint) çeker veya localStorage’daki önbelleğe alınmış verileri kullanır. Yatay bir kaydırıcı (slider) oluşturur; bu slider içinde gezinme düğmeleri ve ürün kartları bulunur. Ürün kartlarında görseller, fiyatlandırma ve etkileşimli öğeler yer alır. Bileşen, ana sayfa (root path) yüklendiğinde otomatik olarak başlatılır, kullanıcı etkileşimlerini kalıcı depolama ile yönetir ve farklı ekran boyutlarına uyum sağlayan tamamen duyarlı bir tasarım sunar.",
+      "image": "../assets/product-carousel.png",
+      "githubLink": "https://github.com/kurtemrecan/product-carousel-example",
+      "siteLink": "https://product-carousel-example-t6og.vercel.app/",
+      "technologies": ["JavaScript", "IIFE"]
     }
   ],
   "projects": "Projeler",

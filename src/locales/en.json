@@ -20,12 +20,12 @@
     },
     {
       "id": 3,
-      "title": "Add Cart",
-      "description": "It offers a simple shopping experience that allows users to add and remove products from their cart. This project is developed using React and Context API. After viewing products, users can add them to their cart and easily manage the products in their cart.",
-      "image": "../assets/add-cart.jpeg",
-      "githubLink": "https://github.com/kurtemrecan/add-cart.git",
-      "siteLink": "https://add-cart-puce.vercel.app/",
-      "technologies": ["React", "JavaScript", "ContextApi"]
+      "title": "Product Carousel",
+      "description": "This JavaScript component creates a responsive product carousel that displays recommended products with features like favorites, discounts, and add-to-cart functionality. It fetches data from a JSON endpoint or uses cached data from localStorage, building a horizontal slider with navigation buttons and product cards that include images, pricing, and interactive elements. The component automatically initializes on the root path, handling user interactions with persistent storage while providing a fully responsive design that adapts to various screen sizes.",
+      "image": "../assets/product-carousel.png",
+      "githubLink": "https://github.com/kurtemrecan/product-carousel-example",
+      "siteLink": "https://product-carousel-example-t6og.vercel.app/",
+      "technologies": ["JavaScript", "IIFE"]
     }
   ],
   "projects": "Projects",
