@@ -21,7 +21,7 @@
     {
       "id": 3,
       "title": "Product Carousel",
-      "description": "This JavaScript component creates a responsive product carousel that displays recommended products with features like favorites, discounts, and add-to-cart functionality. It fetches data from a JSON endpoint or uses cached data from localStorage, building a horizontal slider with navigation buttons and product cards that include images, pricing, and interactive elements. The component automatically initializes on the root path, handling user interactions with persistent storage while providing a fully responsive design that adapts to various screen sizes.",
+      "description": "A responsive product carousel component that displays recommended products with features like favorites, discounts, and add-to-cart functionality. It fetches data from a JSON endpoint or localStorage, creating a horizontal slider with navigation buttons and interactive product cards. The design is fully responsive, adapting to various screen sizes.",
       "image": "../assets/product-carousel.png",
       "githubLink": "https://github.com/kurtemrecan/product-carousel-example",
       "siteLink": "https://product-carousel-example-t6og.vercel.app/",

@@ -7,6 +7,7 @@ export default function Projects() {
 
   useEffect(() => {
     // Eğer currentContent'de projectsData mevcutsa, projeleri ayarlayın
+    console.log('Dil değişti veya içerik geldi:', currentContent);
     if (currentContent?.projectsData) {
       setProjects(currentContent.projectsData);
     }

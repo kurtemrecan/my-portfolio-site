@@ -21,7 +21,7 @@
     {
       "id": 3,
       "title": "Ürün Carousel'i",
-      "description": "Bu JavaScript bileşeni, önerilen ürünleri gösteren duyarlı (responsive) bir ürün karuseli oluşturur. Favorilere ekleme, indirim göstergesi ve sepete ekleme gibi işlevler içerir. Verileri bir JSON uç noktasından (endpoint) çeker veya localStorage’daki önbelleğe alınmış verileri kullanır. Yatay bir kaydırıcı (slider) oluşturur; bu slider içinde gezinme düğmeleri ve ürün kartları bulunur. Ürün kartlarında görseller, fiyatlandırma ve etkileşimli öğeler yer alır. Bileşen, ana sayfa (root path) yüklendiğinde otomatik olarak başlatılır, kullanıcı etkileşimlerini kalıcı depolama ile yönetir ve farklı ekran boyutlarına uyum sağlayan tamamen duyarlı bir tasarım sunar.",
+      "description": "Önerilen ürünleri favoriler, indirimler ve sepete ekleme gibi özelliklerle gösteren duyarlı bir ürün karuseli bileşeni. JSON endpoint’inden veya localStorage’dan veri çekerek yatay kaydırıcı ve etkileşimli ürün kartları oluşturur. Tasarım, farklı ekran boyutlarına uyum sağlar.",
       "image": "../assets/product-carousel.png",
       "githubLink": "https://github.com/kurtemrecan/product-carousel-example",
       "siteLink": "https://product-carousel-example-t6og.vercel.app/",

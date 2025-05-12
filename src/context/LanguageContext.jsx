@@ -19,16 +19,7 @@ export const LanguageProvider = ({ children }) => {
   useEffect(() => {
     const translate = language === 'en' ? en_data : tr_data;
 
-    axios
-      .post('https://reqres.in/api/translate', translate)
-      .then((res) => {
-        console.log('Post İşlemi başarlı:', res.data);
-        setCurrentContent(res.data); // api'deki veriyi statee kaydediyoruz
-        toast.success(t('ceviriBasarili'));
-      })
-      .catch((err) => {
-        console.warn('hata', err);
-      });
+    setCurrentContent(translate);
   }, [language]); // dil değişiminde sadece bir kez çalışır
 
   return (
